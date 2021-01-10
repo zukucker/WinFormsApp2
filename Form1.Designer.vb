@@ -40,10 +40,10 @@ Partial Class Form1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 100)
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 69)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(800, 350)
+        Me.PictureBox1.Size = New System.Drawing.Size(800, 381)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
