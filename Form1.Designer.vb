@@ -33,6 +33,7 @@ Partial Class Form1
         Me.OpenFileDialog2 = New System.Windows.Forms.OpenFileDialog()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.pdf_search = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -119,11 +120,21 @@ Partial Class Form1
         Me.pdf_search.Text = "PDF suchen"
         Me.pdf_search.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(806, 122)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(210, 30)
+        Me.Button1.TabIndex = 9
+        Me.Button1.Text = "PictureBox leeren"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1018, 450)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.pdf_search)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.pdf_save)
@@ -152,4 +163,5 @@ Partial Class Form1
     Friend WithEvents OpenFileDialog2 As OpenFileDialog
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents pdf_search As Button
+    Friend WithEvents Button1 As Button
 End Class
